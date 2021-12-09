@@ -28,5 +28,7 @@ describe('Twitter Clone - Login', () => {
         cy.get('nav ul li')
             .should('be.visible')
             .and('have.length', 6)
+
+            
     });
 });
